@@ -1,0 +1,237 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ body{
+    background-color: aliceblue;
+
+ }
+ .container{
+    width: 400px;
+    height: 550px;
+    margin: 8% auto;
+    background-color:white;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 5px 10px rgb(61, 61, 61,0.4);
+    overflow: hidden;
+    
+ }
+
+ h3{
+    text-align: center;
+    margin-bottom: 20px;
+    color: crimson;
+    font-size: 20px;
+    font-weight: 700;
+    
+ }
+ .container form{
+    width: 300px;
+    position: absolute;
+    top: 80px;
+    left: 55px;
+    transition: 0.5s ease-in;
+    
+ }
+
+form input,textarea{ 
+   font-size: 16px;
+   width: 100%;
+   padding: 10px 5px;
+   margin: 5px 0;
+   border: 0;
+   border-bottom:2px solid crimson;
+   background-color: transparent;
+   outline: none;
+
+}
+form .add{
+   width: 46%;
+   display: inline-block;
+
+}
+.btn-box{
+   width: 100%;
+   text-align: center;
+   margin: 30px auto;
+}
+form button{
+   width: 110px;
+   height: 35px;
+   margin: 0 10px;
+   font-size: 20px;
+   font-weight: 400;
+   border: none;
+   background-color: crimson;
+   color: white;
+   border-radius: 20px;
+   cursor: pointer;
+}
+form button:hover{
+   color: crimson;
+   background-color: transparent;
+   border: 2px solid crimson;
+}
+#form2 button{
+   margin-top: 50px;
+}
+#form1 button{
+   margin-top: 50px;
+}
+#form2{
+   left:450px;
+   
+}
+#form3{
+   left: 450px;
+   height: 700px !important;
+   overflow: visible !important;
+}
+.step-row{
+   width: 400px;
+   height: 40px;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   box-shadow: 0 -1px 5px 0px rgb(81, 80, 80);
+   position: relative;
+
+}
+.step-col{
+   width: 120px;
+   text-align: center;
+   color: rgb(46, 46, 46);
+   font-weight: 700;
+   font-size: 16px;
+   position: relative;
+
+}
+#progress{
+    position: absolute;
+    width: 120px;
+    height: 100%;
+    background-color: crimson;
+    transition: 0.8s ease-in;
+}
+
+
+/* #########################  footer ################*/
+footer {
+   position: absolute;
+   bottom:0;
+   background-color: rgb(23,23,23);
+   height: 150px;
+   width: 98.7vw;
+   top:700px;
+   padding-top: 40px;
+   color: red;
+}
+
+.footer-content {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+}
+
+.footer-content h3 {
+   font-size: 2.1rem;
+   font-weight: 700;
+   text-transform: capitalize;
+   line-height: 3rem;
+}
+
+.footer-content p {
+   max-width: 500px;
+   margin: 10px auto;
+   line-height: 28px;
+   font-size: 20px;
+   color: #cacdd2;
+}
+
+.socials {
+   list-style: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 1rem 0 1rem 0;
+}
+
+.socials li {
+   margin: 0 10px;
+}
+
+.socials a {
+   text-decoration: none;
+   color: #fff;
+   border: 1.1px solid white;
+   padding: 5px;
+
+   border-radius: 50%;
+}
+
+.socials a i {
+   font-size: 1.1rem;
+   width: 20px;
+
+   transition: color .4s ease;
+}
+
+.socials a:hover i {
+   color: red;
+}
+
+.footer-bottom {
+   background: #000;
+   width: 95.5vw;
+   padding: 20px;
+   padding-bottom: 40px;
+   text-align: center;
+}
+
+.footer-bottom p {
+   float: left;
+   font-size: 16px;
+   word-spacing: 2px;
+   text-transform: capitalize;
+}
+
+.footer-bottom p a {
+   color: red;
+   font-size: 16px;
+   text-decoration: none;
+}
+
+.footer-menu {
+   float: right;
+
+}
+
+.footer-menu ul {
+   display: flex;
+}
+
+.footer-menu ul li {
+   padding-right: 10px;
+   display: block;
+}
+
+.footer-menu ul li a {
+   color: #cfd2d6;
+   text-decoration: none;
+}
+
+.footer-menu ul li a:hover {
+   color: #27bcda;
+}
+
+@media (max-width:500px) {
+   .footer-menu ul {
+       display: flex;
+       margin-top: 10px;
+       margin-bottom: 20px;
+   }
+}
